@@ -3,29 +3,32 @@
   <head>
     <meta charset="UTF-8"> 
       <title>Cecily Rowland's Portfolio</title>
-      <link rel="stylesheet" type="text/css" href="styles.css">
-      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Cecily's Portfolio</h1>
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
-      <div class="content-center">
-        <ul>
-          <li class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-            <a href="/cover-letter">About Me</a>
+    <div id=header-box>
+
+      <h1>Cecily's Portfolio</h1>
+      <nav id=navbar>
+        <ul id=list>
+          <li class=list-item>
+            <a href="/cover-letter" >About me</a>
           </li>
-          <li class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+          <li class=list-item>
             <a href="/cv">CV</a>
           </li>
-          <li class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+          <li class=list-item>
             <a href="/projects">Projects</a>
           </li>
-        </ul>   
-      </div>
-    </nav>
+        </ul>  
+      </nav>
+    </div>
+  
+
     <%= yield %>
   </body>
 </html>
