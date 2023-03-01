@@ -21,7 +21,7 @@ h1 {
   text-decoration: none;
 }
 
-a {
+#h1-link {
   text-decoration: none;
   color: #ff4b65;
 }
@@ -59,16 +59,15 @@ a {
   padding-bottom: 5%;
 }
 
-.navbar-link {
+a {
   text-decoration: none;
   color: #00abe9;
 }
 
-.navbar-link hover {
+a:hover {
   color: #005cba;
   font-style: italic;
 }
-
 /* content */
 
 .content-box {
@@ -121,7 +120,6 @@ a {
 
 /* cover_letter */
 
-
 #cover-letter-content {
   color:navy;
   font-family: 'Tilt Warp';
@@ -131,3 +129,5 @@ a {
   padding-left: 5%;
   padding-top: 2%;
  }
+
+

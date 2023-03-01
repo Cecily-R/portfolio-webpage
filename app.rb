@@ -20,4 +20,16 @@ class Application < Sinatra::Base
   get '/cover-letter' do
     return erb(:cover_letter)
   end
+
+  get '/projects' do
+    return erb(:cover_letter)
+  end
+
+  get '/contact-form' do 
+    return erb(:contact_form)
+  end 
+
+  post '/contact-form' do 
+    
+  end
 end

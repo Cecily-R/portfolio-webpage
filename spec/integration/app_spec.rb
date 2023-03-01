@@ -29,4 +29,14 @@ describe Application do
       expect(response.body).to include "I am a natural empath, which came in handy at Makers, where pair programming and team projects were fundamental to the structure of the course.  I was able to put EQ abilities to good use in creating an inclusive and nurturing environment for my fellow learners."
     end
   end
+
+  context 'GET /cv' do
+    it 'should return cv page with cv imbedded as PDF' do
+      response = get('/cv')
+
+      expect(response.status).to eq(200)
+      expect(response.body).to include '<h2>My CV</h2>'
+      expect(response.body).to include '<iframe src="docs/cv.pdf" height="500" width="800"></iframe>'
+    end
+  end
 end 
