@@ -10,7 +10,6 @@ body {
   background-color: #fffbf4;
   margin-left: 2%;
   margin-right: 2%;
-  padding-bottom: 1%;
   border-radius: 20px;
   box-shadow: 10px 5px 5px #005cba;
 }
@@ -20,8 +19,7 @@ h1 {
   font-family: 'Lobster';
   font-size: 400%;
   color: #ff4b65;
-  margin-bottom: 0;
-  padding-top: 2%;
+  padding: 1%;
   border-radius: 15px;
 }
 
@@ -33,18 +31,19 @@ h1 {
   box-shadow: 10px 5px 5px #005cba;
   float: right;
   margin-right: 2%;
-  margin-top: 2%;
   height: 100%;
   width: 22%;
   text-align: left;
-  position: sticky;
+  display: fixed;
+  height: 50%;
 }
 
-ul { 
+#list { 
   display: block;
   text-decoration: none;
   text-align: left;
   list-style-type: none;
+  padding-bottom: 152%;
  }
 
 .list-item {
