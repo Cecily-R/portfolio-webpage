@@ -26,6 +26,11 @@ h1 {
   color: #ff4b65;
 }
 
+#h1-link:hover {
+  color:#00abe9;
+  font-style: italic;
+}
+
 /* navbar box */
 
 #navbar-box {
@@ -101,7 +106,7 @@ a:hover {
   margin-right: auto;
   width: 30%;
   background-color: #ffc8f4;
-  border-radius: 5px;
+  border-radius: 20px;
   box-shadow: inset 0 0 30px #fff;
   border: none;
 }
@@ -129,5 +134,80 @@ a:hover {
   padding-left: 5%;
   padding-top: 2%;
  }
+
+ /* contact-form */
+
+.input-prompt {
+  display: inline;
+}
+
+#name-label {
+  float: left;
+}
+
+#name-box {
+  float: left;
+  background-color: #fff;
+  color: #ff4b65;
+  margin-left: 1%;
+  margin-right: 2%;
+  width: 41.5%;
+  border-color: #005cba;
+  text-align: left;
+  color: #ff4b65;  
+  font-family: 'Tilt Warp';
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+#email-box {
+  background-color: #fff;
+  color: #ff4b65;
+  margin-left: 1%;
+  width: 41.7%;
+  border-color: #005cba;
+  text-align: left;
+  color: #ff4b65;  
+  font-family: 'Tilt Warp';
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+#message-label {
+  margin-top: 2%;
+  float: left;
+}
+
+#message-box {
+  margin-top: 2%;
+  padding-bottom: 3%;
+  width: 100%;
+  height: 150%;
+  background-color: #fff;
+  border-width: 2px;
+  border-color: #005cba;
+  text-align: left;
+  color: #ff4b65;  
+  font-family: 'Tilt Warp';
+  border-radius: 5px;
+}
+
+#submit-button {
+ margin: 4%;
+ padding: 1%;
+ font-size: large;
+ border: none;
+ background-color: #d6f1f7;
+ font-family: 'Tilt Warp';
+ color: #005cba;
+ border-radius: 10px;
+ box-shadow: 5px 2px 2px #005cba;
+}
+
+#submit-button:hover {
+  color:#ff4b65;
+  font-style: italic;
+  cursor: pointer;
+}
 
 
