@@ -1,7 +1,4 @@
 /* background and title block */
-
-html { height:100%; }
-
 body {
   background-color: #d6f1f7;
 }
@@ -21,6 +18,12 @@ h1 {
   color: #ff4b65;
   padding: 1%;
   border-radius: 15px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ff4b65;
 }
 
 /* navbar box */
@@ -35,15 +38,15 @@ h1 {
   width: 22%;
   text-align: left;
   display: fixed;
-  height: 50%;
 }
 
 #list { 
   display: block;
   text-decoration: none;
   text-align: left;
+  padding-top: 10%;
+  padding-bottom: 10%;
   list-style-type: none;
-  padding-bottom: 152%;
  }
 
 .list-item {
@@ -56,37 +59,39 @@ h1 {
   padding-bottom: 5%;
 }
 
-a {
+.navbar-link {
   text-decoration: none;
   color: #00abe9;
 }
 
-a:hover {
+.navbar-link hover {
   color: #005cba;
   font-style: italic;
 }
 
-/* index */
+/* content */
 
-#homepage-box {
+.content-box {
   background-color: #fffbf4;
   margin-left: 2.5%;
   margin-right: 2.5%;
+  margin-bottom: 2.5%;
+  padding-bottom: 2%;
   border-radius: 30px;
-  height: 50%;
   box-shadow: 10px 5px 5px #005cba;
-  padding-bottom: 5%;
-  margin-top: 2%;
-  align-items: left;
   width: 70%;
+  height: 500%;
+  align-items: center;
 }
 
-#intro {
- padding-top: 2%;
- padding-left: 2%;
- text-align: center;
- font-family: 'Tilt Warp';
- color:navy;
+.content {
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  font-family: 'Tilt Warp';
+  color:navy;
+  margin: 2%;
 }
 
 #image-box {
@@ -95,7 +100,7 @@ a:hover {
   margin-top: 3%;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 30%;
   background-color: #ffc8f4;
   border-radius: 5px;
   box-shadow: inset 0 0 30px #fff;
@@ -114,3 +119,15 @@ a:hover {
  padding-top: 1%
 }
 
+/* cover_letter */
+
+
+#cover-letter-content {
+  color:navy;
+  font-family: 'Tilt Warp';
+  font-size: large;
+  text-align: left;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+ }

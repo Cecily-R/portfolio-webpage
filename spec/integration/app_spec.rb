@@ -19,14 +19,14 @@ describe Application do
     end
   end
 
-  context 'GET /cv' do
-    it 'should return the cv page' do
-      response = get('/cv')
+  context 'GET /cover-letter' do
+    it 'should return the cover letter page' do
+      response = get('/cover-letter')
 
       expect(response.status).to eq(200)
-      expect(response.body).to include "Hi, I'm Cecily!"
-      expect(response.body).to include "I'm a software developer living in London."
-      expect(response.body).to include "Click on the links to find out more about me and to see examples of my work."
+      expect(response.body).to include '<h2>About me!</h2>'
+      expect(response.body).to include "I’m curious and excited about software and building useful products. I am a people-focused person who is in her element when working as part of a collaborative and kind team, bouncing ideas off one another and building something far better as a result!"
+      expect(response.body).to include "I am a natural empath, which came in handy at Makers, where pair programming and team projects were fundamental to the structure of the course.  I was able to put EQ abilities to good use in creating an inclusive and nurturing environment for my fellow learners."
     end
   end
 end 
