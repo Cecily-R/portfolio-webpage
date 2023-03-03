@@ -26,9 +26,8 @@ h1 {
   color: #ff4b65;
 }
 
-#h1-link:hover {
-  color:#00abe9;
-  font-style: italic;
+.wrapper {
+  height: 75%;
 }
 
 /* navbar box */
@@ -64,15 +63,16 @@ h1 {
   padding-bottom: 5%;
 }
 
-a {
+ .navbar-link {
   text-decoration: none;
   color: #00abe9;
 }
 
-a:hover {
+.navbar-link:hover {
   color: #005cba;
   font-style: italic;
 }
+
 /* content */
 
 .content-box {
@@ -191,6 +191,8 @@ a:hover {
   font-family: 'Tilt Warp';
   border-radius: 5px;
 }
+
+
 
 #submit-button {
  margin: 4%;
